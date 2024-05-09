@@ -64,6 +64,8 @@ void main(void)
     while (1)
     {
         // Add your application code
+        IO_RF3_Toggle();
+        __delay_ms(500);
     }
 }
 /**
